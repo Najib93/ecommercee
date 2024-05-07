@@ -9,3 +9,5 @@ class Product(models.Model):
     price = models.IntegerField()
     discount = models.IntegerField()
     available = models.BooleanField(default=True)
+
+
